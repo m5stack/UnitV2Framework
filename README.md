@@ -2,10 +2,14 @@
 
 ## Build example
 
+### Case UnitV2 Bibary
 ```sh
 $ cmake -B build/arm -DTARGET_COMPILE=arm -DTARGET=camera_capture .
 $ cmake --build build/arm
+```
+### Case X64 Bibary
 
+```sh
 $ cmake -B build/x64 -DTARGET_COMPILE=x64 -DTARGET=camera_capture .
 $ cmake --build build/x64
 ```
