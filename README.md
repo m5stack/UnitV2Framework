@@ -1,5 +1,16 @@
 # M5 UnitV2 Framework
 
+## Build example
+
+```sh
+$ cmake -B build/arm -DTARGET_COMPILE=arm -DTARGET=camera_capture .
+$ cmake --build build/arm
+
+$ cmake -B build/x64 -DTARGET_COMPILE=x64 -DTARGET=camera_capture .
+$ cmake --build build/x64
+```
+
+
 ## Toolchain
 
 gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf.tar.xz
