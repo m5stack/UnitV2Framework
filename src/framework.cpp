@@ -433,6 +433,7 @@ int loadModel(const std::string pathparam, const std::string pathbin, ncnn::Net 
     net.opt.openmp_blocktime = 0;
     net.opt.lightmode = true;
     net.opt.num_threads = ncnn::get_cpu_count();
+    return 0;
 }
 
 void resetAllocator(void)
